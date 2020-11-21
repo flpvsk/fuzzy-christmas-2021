@@ -1,0 +1,520 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4300 4300 4600 4300
+Wire Wire Line
+	4600 4300 4600 3800
+Wire Wire Line
+	4650 3400 4600 3400
+Wire Wire Line
+	4600 3400 4600 3800
+Connection ~ 4600 3800
+Wire Wire Line
+	5800 4800 5400 4800
+Wire Wire Line
+	5400 4800 5400 4500
+Connection ~ 5400 4500
+Text Label 5800 4800 0    10   ~ 0
+GND
+Wire Wire Line
+	6800 5200 6800 5700
+Wire Wire Line
+	6800 5700 6100 5700
+Wire Wire Line
+	6100 5700 6100 5600
+Wire Wire Line
+	6800 4800 6800 5200
+Connection ~ 6100 5700
+Connection ~ 6800 5200
+Text Label 6800 5200 0    10   ~ 0
+GND
+Wire Wire Line
+	4550 4500 4600 4500
+Wire Wire Line
+	4600 4500 4600 4700
+Text Label 4550 4500 0    10   ~ 0
+GND
+Wire Wire Line
+	5100 4300 5200 4300
+Wire Wire Line
+	5100 4300 5100 4900
+Wire Wire Line
+	5100 4900 5300 4900
+Wire Wire Line
+	5100 4300 4900 4300
+Wire Wire Line
+	4900 4300 4900 3800
+Wire Wire Line
+	4950 3400 4900 3400
+Wire Wire Line
+	4900 3400 4900 3800
+Wire Wire Line
+	5600 4600 5200 4600
+Wire Wire Line
+	5200 4600 5200 4300
+Wire Wire Line
+	5300 4900 5300 5100
+Connection ~ 5100 4300
+Connection ~ 4900 3800
+Connection ~ 5200 4300
+Connection ~ 5300 4900
+Wire Wire Line
+	5400 4100 5400 4000
+Wire Wire Line
+	5900 4300 5700 4300
+Wire Wire Line
+	5700 4300 5700 4100
+Wire Wire Line
+	5700 4100 5500 4100
+Wire Wire Line
+	5500 4100 5400 4100
+Wire Wire Line
+	5800 4400 5500 4400
+Wire Wire Line
+	5500 4400 5500 4100
+Wire Wire Line
+	6600 4400 5900 4400
+Wire Wire Line
+	5900 4400 5900 4300
+Wire Wire Line
+	5675 4000 5400 4000
+Connection ~ 5400 4100
+Connection ~ 5500 4100
+Connection ~ 5900 4300
+Connection ~ 5400 4000
+Wire Wire Line
+	6100 4000 6100 4100
+Wire Wire Line
+	6800 4200 6100 4200
+Wire Wire Line
+	6100 4200 6100 4100
+Wire Wire Line
+	6100 4000 6300 4000
+Connection ~ 6100 4100
+Connection ~ 6100 4000
+Wire Wire Line
+	5700 4900 6100 4900
+Wire Wire Line
+	6800 4600 6100 4600
+Wire Wire Line
+	5700 5100 5700 4900
+Connection ~ 6100 4900
+Connection ~ 5700 4900
+Wire Wire Line
+	5900 2900 6100 2900
+Wire Wire Line
+	6100 2900 6400 2900
+Wire Wire Line
+	6400 2900 6550 2900
+Wire Wire Line
+	6100 3000 6100 2900
+Wire Wire Line
+	6550 2400 6400 2400
+Wire Wire Line
+	6400 2400 6400 2900
+Wire Wire Line
+	5900 2900 5900 3100
+Connection ~ 6100 2900
+Connection ~ 6400 2900
+Connection ~ 5900 2900
+Wire Wire Line
+	6100 3500 6100 3600
+Wire Wire Line
+	6300 3600 6100 3600
+Connection ~ 6100 3600
+Wire Wire Line
+	6300 5200 6500 5200
+Wire Wire Line
+	6500 4800 6300 4800
+Wire Wire Line
+	6300 4800 6300 5200
+Connection ~ 6300 5200
+Wire Wire Line
+	7200 3600 7200 2900
+Wire Wire Line
+	7200 2900 6900 2900
+Wire Wire Line
+	6900 2900 6850 2900
+Wire Wire Line
+	6850 2400 6900 2400
+Wire Wire Line
+	6900 2400 6900 2900
+Connection ~ 6900 2900
+Wire Wire Line
+	4050 4500 3800 4500
+Wire Wire Line
+	5400 3600 5400 2900
+Wire Wire Line
+	5500 2900 5400 2900
+Wire Wire Line
+	5400 2900 5200 2900
+Wire Wire Line
+	5500 2900 5500 3100
+Wire Wire Line
+	5400 3600 5675 3600
+Connection ~ 5400 2900
+Connection ~ 5500 2900
+Connection ~ 5400 3600
+$Comp
+L Sunface_v2-eagle-import:GND #GND3
+U 1 1 E2B99DEF
+P 5400 4600
+F 0 "#GND3" H 5400 4600 50  0001 C CNN
+F 1 "GND" H 5325 4475 59  0000 L BNN
+F 2 "" H 5400 4600 50  0001 C CNN
+F 3 "" H 5400 4600 50  0001 C CNN
+	1    5400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:GND #GND4
+U 1 1 6AE2E73F
+P 6100 5800
+F 0 "#GND4" H 6100 5800 50  0001 C CNN
+F 1 "GND" H 6025 5675 59  0000 L BNN
+F 2 "" H 6100 5800 50  0001 C CNN
+F 3 "" H 6100 5800 50  0001 C CNN
+	1    6100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:TRIMMER IR
+U 1 1 8C1EE555
+P 4300 4500
+F 0 "IR" V 4215 4500 59  0000 C CNN
+F 1 "50k" V 4125 4500 59  0000 C CNN
+F 2 "Sunface_v2:TRIM1" H 4300 4500 50  0001 C CNN
+F 3 "" H 4300 4500 50  0001 C CNN
+	1    4300 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:5MM.7 C1
+U 1 1 EF84912C
+P 4800 4300
+F 0 "C1" H 4800 4445 59  0000 C CNN
+F 1 "1uF" H 4800 4155 59  0000 C CNN
+F 2 "Sunface_v2:050.AXIAL" H 4800 4300 50  0001 C CNN
+F 3 "" H 4800 4300 50  0001 C CNN
+	1    4800 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:CER_FILM_AXIAL C2
+U 1 1 81A81FE1
+P 6700 2900
+F 0 "C2" V 6600 2830 59  0000 L BNN
+F 1 "0.01uF" V 6870 2790 59  0000 L BNN
+F 2 "Sunface_v2:AXIAL" H 6700 2900 50  0001 C CNN
+F 3 "" H 6700 2900 50  0001 C CNN
+	1    6700 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:R.4 R1
+U 1 1 704095F4
+P 5400 3800
+F 0 "R1" H 5400 3884 59  0000 C CNN
+F 1 "33k" H 5400 3715 59  0000 C CNN
+F 2 "Sunface_v2:0.4_" H 5400 3800 50  0001 C CNN
+F 3 "" H 5400 3800 50  0001 C CNN
+	1    5400 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:R.4 R2
+U 1 1 3EA9FBF4
+P 6100 3800
+F 0 "R2" H 6100 3884 59  0000 C CNN
+F 1 "2.2k" H 6100 3715 59  0000 C CNN
+F 2 "Sunface_v2:0.4_" H 6100 3800 50  0001 C CNN
+F 3 "" H 6100 3800 50  0001 C CNN
+	1    6100 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:R.4 R3
+U 1 1 534C61D4
+P 5500 4900
+F 0 "R3" H 5500 4984 59  0000 C CNN
+F 1 "100k" H 5500 4815 59  0000 C CNN
+F 2 "Sunface_v2:0.4_" H 5500 4900 50  0001 C CNN
+F 3 "" H 5500 4900 50  0001 C CNN
+	1    5500 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:NPN.1 Q1
+U 1 1 5D93F85C
+P 5300 4300
+F 0 "Q1" H 5400 4320 59  0000 L BNN
+F 1 "GE NPN" H 5400 4280 59  0000 L TNN
+F 2 "Sunface_v2:TO-5" H 5300 4300 50  0001 C CNN
+F 3 "" H 5300 4300 50  0001 C CNN
+	1    5300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:NPN.1 Q2
+U 1 1 FE589B80
+P 6000 4300
+F 0 "Q2" H 6100 4320 59  0000 L BNN
+F 1 "GE NPN" H 6100 4280 59  0000 L TNN
+F 2 "Sunface_v2:TO-5" H 6000 4300 50  0001 C CNN
+F 3 "" H 6000 4300 50  0001 C CNN
+	1    6000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:5MM.7 C3
+U 1 1 95CB5704
+P 6600 5200
+F 0 "C3" H 6600 5345 59  0000 C CNN
+F 1 "22uF" H 6600 5055 59  0000 C CNN
+F 2 "Sunface_v2:050.AXIAL" H 6600 5200 50  0001 C CNN
+F 3 "" H 6600 5200 50  0001 C CNN
+	1    6600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:R.4 R4
+U 1 1 3362EC0D
+P 5700 2900
+F 0 "R4" H 5700 2984 59  0000 C CNN
+F 1 "470R" H 5700 2815 59  0000 C CNN
+F 2 "Sunface_v2:0.4_" H 5700 2900 50  0001 C CNN
+F 3 "" H 5700 2900 50  0001 C CNN
+	1    5700 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:PADS.RND_NL U$2
+U 1 1 6197D135
+P 7200 3600
+F 0 "U$2" H 7200 3600 50  0001 C CNN
+F 1 "PADS.RND_NL" H 7200 3600 50  0001 C CNN
+F 2 "Sunface_v2:PAD2" H 7200 3600 50  0001 C CNN
+F 3 "" H 7200 3600 50  0001 C CNN
+	1    7200 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:PADS.RND_NL U$3
+U 1 1 2AECCF64
+P 6100 3500
+F 0 "U$3" H 6100 3500 50  0001 C CNN
+F 1 "PADS.RND_NL" H 6100 3500 50  0001 C CNN
+F 2 "Sunface_v2:PAD2" H 6100 3500 50  0001 C CNN
+F 3 "" H 6100 3500 50  0001 C CNN
+	1    6100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:PADS.RND_NL U$4
+U 1 1 9A709B56
+P 6100 3000
+F 0 "U$4" H 6100 3000 50  0001 C CNN
+F 1 "PADS.RND_NL" H 6100 3000 50  0001 C CNN
+F 2 "Sunface_v2:PAD2" H 6100 3000 50  0001 C CNN
+F 3 "" H 6100 3000 50  0001 C CNN
+	1    6100 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:PADS.RND_NL U$5
+U 1 1 664F9D51
+P 6100 4900
+F 0 "U$5" H 6100 4900 50  0001 C CNN
+F 1 "PADS.RND_NL" H 6100 4900 50  0001 C CNN
+F 2 "Sunface_v2:PAD2" H 6100 4900 50  0001 C CNN
+F 3 "" H 6100 4900 50  0001 C CNN
+	1    6100 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:PADS.RND_NL U$6
+U 1 1 CBA4A339
+P 6300 5200
+F 0 "U$6" H 6300 5200 50  0001 C CNN
+F 1 "PADS.RND_NL" H 6300 5200 50  0001 C CNN
+F 2 "Sunface_v2:PAD2" H 6300 5200 50  0001 C CNN
+F 3 "" H 6300 5200 50  0001 C CNN
+	1    6300 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:PADS.RND_NL U$7
+U 1 1 9C312127
+P 6100 5600
+F 0 "U$7" H 6100 5600 50  0001 C CNN
+F 1 "PADS.RND_NL" H 6100 5600 50  0001 C CNN
+F 2 "Sunface_v2:PAD2" H 6100 5600 50  0001 C CNN
+F 3 "" H 6100 5600 50  0001 C CNN
+	1    6100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:PADS.RND_NL U$1
+U 1 1 4D826FCC
+P 3800 4500
+F 0 "U$1" H 3800 4500 50  0001 C CNN
+F 1 "PADS.RND_NL" H 3800 4500 50  0001 C CNN
+F 2 "Sunface_v2:PAD2" H 3800 4500 50  0001 C CNN
+F 3 "" H 3800 4500 50  0001 C CNN
+	1    3800 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:PADS.SQR_NL U$8
+U 1 1 34842870
+P 5200 2900
+F 0 "U$8" H 5200 2900 50  0001 C CNN
+F 1 "PADS.SQR_NL" H 5200 2900 50  0001 C CNN
+F 2 "Sunface_v2:PAD4" H 5200 2900 50  0001 C CNN
+F 3 "" H 5200 2900 50  0001 C CNN
+	1    5200 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:PADS.SQR_NL GND
+U 1 1 F6502666
+P 4600 4700
+F 0 "GND" H 4600 4700 50  0001 C CNN
+F 1 "PADS.SQR_NL" H 4600 4700 50  0001 C CNN
+F 2 "Sunface_v2:PAD4" H 4600 4700 50  0001 C CNN
+F 3 "" H 4600 4700 50  0001 C CNN
+	1    4600 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:5MM.8 C1_
+U 1 1 0E92132C
+P 4800 3800
+F 0 "C1_" H 4800 3945 59  0000 C CNN
+F 1 "5MM.8" H 4800 3655 59  0000 C CNN
+F 2 "Sunface_v2:050.FLAT" H 4800 3800 50  0001 C CNN
+F 3 "" H 4800 3800 50  0001 C CNN
+	1    4800 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:5MM.8 C5
+U 1 1 7D757E34
+P 6600 4800
+F 0 "C5" H 6600 4945 59  0000 C CNN
+F 1 "5MM.8" H 6600 4655 59  0000 C CNN
+F 2 "Sunface_v2:050.FLAT" H 6600 4800 50  0001 C CNN
+F 3 "" H 6600 4800 50  0001 C CNN
+	1    6600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:CER_FILMBOX.2 C2_
+U 1 1 C5D4997A
+P 6700 2400
+F 0 "C2_" V 6600 2330 59  0000 L BNN
+F 1 "CER_FILMBOX.2" V 6870 2290 59  0000 L BNN
+F 2 "Sunface_v2:BOX_MED" H 6700 2400 50  0001 C CNN
+F 3 "" H 6700 2400 50  0001 C CNN
+	1    6700 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:CER_FILMBOX.2 C1__
+U 1 1 2A818601
+P 4800 3400
+F 0 "C1__" V 4700 3330 59  0000 L BNN
+F 1 "CER_FILMBOX.2" V 4970 3290 59  0000 L BNN
+F 2 "Sunface_v2:BOX_MED" H 4800 3400 50  0001 C CNN
+F 3 "" H 4800 3400 50  0001 C CNN
+	1    4800 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:2N5088 Q3
+U 1 1 0A754E0B
+P 5700 4600
+F 0 "Q3" H 5800 4620 59  0000 L BNN
+F 1 "2N5088" H 5800 4580 59  0000 L TNN
+F 2 "Sunface_v2:TO92" H 5700 4600 50  0001 C CNN
+F 3 "" H 5700 4600 50  0001 C CNN
+	1    5700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:2N5088 Q4
+U 1 1 4B1CB32A
+P 6700 4400
+F 0 "Q4" H 6800 4420 59  0000 L BNN
+F 1 "2N5088" H 6800 4380 59  0000 L TNN
+F 2 "Sunface_v2:TO92" H 6700 4400 50  0001 C CNN
+F 3 "" H 6700 4400 50  0001 C CNN
+	1    6700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:R.6 R5
+U 1 1 325BC02B
+P 5675 3800
+F 0 "R5" H 5675 3884 59  0000 C CNN
+F 1 "R.6" H 5675 3715 59  0000 C CNN
+F 2 "Sunface_v2:0.6_" H 5675 3800 50  0001 C CNN
+F 3 "" H 5675 3800 50  0001 C CNN
+	1    5675 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:R.6 R6
+U 1 1 DEE2CDA4
+P 6300 3800
+F 0 "R6" H 6300 3884 59  0000 C CNN
+F 1 "R.6" H 6300 3715 59  0000 C CNN
+F 2 "Sunface_v2:0.6_" H 6300 3800 50  0001 C CNN
+F 3 "" H 6300 3800 50  0001 C CNN
+	1    6300 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:R.6 R7
+U 1 1 8C91322B
+P 5500 5100
+F 0 "R7" H 5500 5184 59  0000 C CNN
+F 1 "R.6" H 5500 5015 59  0000 C CNN
+F 2 "Sunface_v2:0.6_" H 5500 5100 50  0001 C CNN
+F 3 "" H 5500 5100 50  0001 C CNN
+	1    5500 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Sunface_v2-eagle-import:R.6 R8
+U 1 1 D4295904
+P 5700 3100
+F 0 "R8" H 5700 3184 59  0000 C CNN
+F 1 "R.6" H 5700 3015 59  0000 C CNN
+F 2 "Sunface_v2:0.6_" H 5700 3100 50  0001 C CNN
+F 3 "" H 5700 3100 50  0001 C CNN
+	1    5700 3100
+	-1   0    0    1   
+$EndComp
+Text Notes 7300 4200 0    59   ~ 0
+TO VOLUME POT\n250kA\n\nV2 TO OUT\nV1 TO GND
+Text Notes 5600 5300 0    59   ~ 0
+FUZZ POT\n1kB
+Text Notes 6200 3600 0    59   ~ 0
+SUNDIAL\n5k (Better 10kB)\nT1 to GND
+Wire Wire Line
+	6100 4500 6100 4900
+$EndSCHEMATC
